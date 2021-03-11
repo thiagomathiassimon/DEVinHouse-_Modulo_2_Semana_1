@@ -1,0 +1,27 @@
+Preencha as lacunas em cada uma das seguintes sentenças:
+
+a) Toda declaração de classe que inicia com a palavra-chave "public" deve ser armazenada em um arquivo que tem exatamente o mesmo nome que a classe e terminar com a extensão de nome do arquivo .java.
+
+b) A palavra-chave "class" em uma declaração de classe é imediatamente seguida pelo nome da classe.
+
+c) A palavra-chave "new" solicita memória do sistema para armazenar um objeto, e então chama o construtor da classe correspondente para inicializar esse objeto.
+
+d) Todo parâmetro deve especificar um(a) "tipo" e um(a) "nome".
+
+e) O Java fornece dois tipos primitivos para armazenar números de ponto flutuante na memória: "double" e "float".
+
+f) O método scanner "nextDouble()" retorna um valor double.
+
+g) A palavra-chave public é um "modificador" de acesso.
+
+h) O tipo de retorno "void" indica que um método não retornará um valor.
+
+i) O método Scanner "nextLine()" lê os caracteres até encontrar um caractere de nova linha, então retorna esses caracteres como uma String.
+
+j) A classe String está no pacote "java.lang".
+
+k) Um(a) "número de ponto flutuante" é um número com um ponto de fração decimal, como 7,33, 0,0975 ou 1000,12345.
+
+l) O especificador de formato "%f" é utilizado para gerar saída de valores de tipo float ou double.
+
+m) Os tipos no Java são divididos em duas categorias — tipo "primitivo" e tipo "por referência".
