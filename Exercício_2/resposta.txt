@@ -1,0 +1,45 @@
+Determine se cada uma das seguintes sentenças é verdadeira ou falsa. Se falsa, explique por quê.
+
+a) Por convenção, os nomes de método são iniciados com letra maiúscula, e todas as palavras subsequentes a ele também começam com letra maiúscula.
+
+Resposta: Falsa.
+
+b) Uma declaração import não é necessária quando uma classe em um pacote utiliza outra no mesmo pacote.
+
+Resposta: Verdadeira.
+
+c) Parênteses vazios que se seguem a um nome de método em uma declaração indicam que ele não requer nenhum parâmetro para realizar sua tarefa.
+
+Resposta: Verdadeira.
+
+d) Uma variável de tipo primitivo pode ser utilizada para invocar um método.
+
+Resposta: Falsa.
+
+e) As variáveis declaradas no corpo de um método particular são conhecidas como variáveis de instância e podem ser utilizadas em todos os métodos da classe.
+
+Resposta: Falsa.
+
+f) O corpo de todos os métodos é delimitado pelas chaves esquerda e direita ({ e }).
+
+Resposta: Verdadeira.
+
+g) As variáveis locais de tipo primitivo são inicializadas por padrão.
+
+Resposta: Falsa.
+
+h) As variáveis de instância de tipo por referência são inicializadas por padrão com o valor null.
+
+Resposta: Verdadeira.
+
+i) Qualquer classe que contém public static void main(String[] args) pode ser usada para executar um aplicativo.
+
+Resposta: Verdadeira.
+
+j) O número de argumentos na chamada de método deve corresponder ao de itens na lista de parâmetros da declaração desse método.
+
+Resposta: Verdadeira.
+
+k) Os valores de ponto flutuante que aparecem no código-fonte são conhecidos como literais de ponto flutuante e são tipos float por padrão.
+
+Resposta: Falsa.
