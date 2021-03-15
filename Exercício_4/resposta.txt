@@ -1,0 +1,3 @@
+Em alusão às diferenças entre parâmetros e argumentos, é perceptível que um parâmetro é uma
+alegoria a dados de que um método necessita para executar corretamente, não obstante, um argumento,
+é o valor real dum parâmetro. 
