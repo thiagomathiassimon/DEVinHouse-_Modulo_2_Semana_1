@@ -1,0 +1,4 @@
+Em alusão às diferenças entre variáveis locais e variáveis de instância, tem-se, principalmente,
+que variáveis locais são declaradas no corpo de um método e só podem ser utilizadas entre sua declaração e o fechamento
+do método em que foi declarada, não obstante, variáveis de instância, são declaradas diretamente na classe (fora dum método)
+e podem ser acessadas por todos os métodos da classe.
