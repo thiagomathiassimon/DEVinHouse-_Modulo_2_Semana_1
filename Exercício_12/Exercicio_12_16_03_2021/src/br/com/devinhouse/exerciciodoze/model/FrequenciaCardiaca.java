@@ -1,6 +1,7 @@
 package br.com.devinhouse.exerciciodoze.model;
 
 import br.com.devinhouse.exerciciodoze.util.DataAtual;
+import br.com.devinhouse.exerciciodoze.util.Data;
 
 public class FrequenciaCardiaca {
 
@@ -11,7 +12,7 @@ public class FrequenciaCardiaca {
 	public FrequenciaCardiaca(String nome, String sobrenome, String dataDeNascimento) {
 		this.nomeDaPessoa = nome;
 		this.sobrenomeDaPessoa = sobrenome;
-		this.dataDeNascimentoDaPessoa = dataDeNascimento;
+		this.dataDeNascimentoDaPessoa = Data.validarData(dataDeNascimento);
 	}
 
 	public String getNomeDaPessoa() {
@@ -35,17 +36,15 @@ public class FrequenciaCardiaca {
 	}
 
 	public void setDataDeNascimentoDaPessoa(String dataDeNascimentoDaPessoa) {
-		this.dataDeNascimentoDaPessoa = dataDeNascimentoDaPessoa;
+		this.dataDeNascimentoDaPessoa = Data.validarData(dataDeNascimentoDaPessoa);
 	}
 
 	public int retornarIdadeEmAnos() {
 		int idade = 0;
 
-		DataAtual dataAtual = new DataAtual();
-
-		int diaAtual = Integer.parseInt(dataAtual.retornarDataAtual(0));
-		int mesAtual = Integer.parseInt(dataAtual.retornarDataAtual(1));
-		int anoAtual = Integer.parseInt(dataAtual.retornarDataAtual(2));
+		int diaAtual = Integer.parseInt(DataAtual.retornarDataAtual(0));
+		int mesAtual = Integer.parseInt(DataAtual.retornarDataAtual(1));
+		int anoAtual = Integer.parseInt(DataAtual.retornarDataAtual(2));
 
 		String[] dataNascimento = this.dataDeNascimentoDaPessoa.split("/");
 
